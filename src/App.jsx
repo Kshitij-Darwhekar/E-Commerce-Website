@@ -9,6 +9,7 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import About from './pages/Catalogue'
 import Catalogue from './pages/Catalogue'
+import Contact from './pages/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,7 +20,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<Catalogue />} />
+          <Route path="/catalogue" element={<Catalogue />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>
