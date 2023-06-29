@@ -7,13 +7,13 @@ const Navbar = () => {
     <>
         <div className='flex flex-row relative gap-4'>
             <div className='flex justify-start '>
-                <h1 className='text-2xl'>Rad Plants</h1>
+                <h1 className='text-2xl font-playfair-bold'>Rad Plants</h1>
             </div>
             <div className='flex flex-grow justify-center items-center text-center gap-4'>
                 <ul className='flex justify-center items-center text-center'>
-                    <li className='mr-6 text-2xl'><a href='/'>Home</a></li>
-                    <li className='mr-6 text-2xl'><a href='/catalogue'>Catalogue</a></li>
-                    <li className='mr-6 text-2xl'><a href='/contact'>Contact</a></li>
+                    <li className='mr-6 text-2xl font-playfair-black'><a href='/'>Home</a></li>
+                    <li className='mr-6 text-2xl font-playfair-black'><a href='/catalogue'>Catalogue</a></li>
+                    <li className='mr-6 text-2xl font-playfair-black'><a href='/contact'>Contact</a></li>
                 </ul>
             </div>
             <div className='flex flex-row'>

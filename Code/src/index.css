@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Ethos-Regular';
+    src: url('/Ethos-Regular.otf');
+    
+    font-family: 'playfair-regular';
+    src: url('/public/Playfair_Display/static/PlayfairDisplay-Regular.ttf');
+
+    font-family: 'playfair-bold';
+    src: url('/public/Playfair_Display/static/PlayfairDisplay-Bold.ttf');
+
+    font-family: 'playfair-black';
+    src: url('/public/Playfair_Display/static/PlayfairDisplay-Black.ttf');
+
+    font-family: 'playfair-italic';
+    src: url('/public/Playfair_Display/static/PlayfairDisplay-Italic.ttf');
+    
+    font-family: 'playfair-bold-italic';
+    src: url('/public/Playfair_Display/static/PlayfairDisplay-BoldItalic.ttf');
+
+    font-family: 'playfair-black-italic';
+    src: url('/public/Playfair_Display/static/PlayfairDisplay-BlackItalic.ttf');
+
+    font-family: 'playfair-extra-bold';
+    src: url('/public/Playfair_Display/static/PlayfairDisplay-ExtraBold.ttf');
+
+    font-family: 'playfair-extra-bold-italic';
+    src: url('/public/Playfair_Display/static/PlayfairDisplay-ExtraBoldItalic.ttf');
+
+    font-family: 'playfair-medium';
+    src: url('/public/Playfair_Display/static/PlayfairDisplay-Medium.ttf');
+
+    font-family: 'playfair-medium-italic';
+    src: url('/public/Playfair_Display/static/PlayfairDisplay-MediumItalic.ttf');
+
+    font-family: 'playfair-semi-bold';
+    src: url('/public/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf');
+
+    font-family: 'playfair-semi-bold-italic';
+    src: url('/public/Playfair_Display/static/PlayfairDisplay-SemiBoldItalic.ttf');
+    
+}

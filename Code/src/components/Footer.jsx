@@ -6,12 +6,12 @@ const Footer = () => {
       <footer class="bg-white">
         <div className='flex flex-col relative gap-4'>
           <div className='flex justify-center items-center text-center flex-grow'>
-              <h5>Get 15% off your next order, Subscribe to our Newsletter </h5>
+              <h5 className='font-playfair text-xl'>Get 15% off your next order, Subscribe to our Newsletter </h5>
           </div>
           <div className='flex justify-center items-center text-center flex-grow'>
             <form >
-              <input type="text" placeholder="Enter your email address" className='border-2 bg-slate-300 border-transparent px-16 py-2 rounded-sm'/>
-              <button type="submit" className='border-2 border-black py-2 px-5 bg-black text-white rounded-sm'>Subscribe</button>
+              <input type="text" placeholder="Enter your email address" className=' bg-gray t px-16 py-2 rounded-sm '/>
+              <button type="submit" className='border-2 border-black py-2 px-5 bg-black text-white rounded-sm font-playfair-bold'>Subscribe</button>
             </form>
           </div>
         </div>
@@ -20,38 +20,38 @@ const Footer = () => {
               <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0">
                     <a href="#" class="flex items-center">
-                        <span class="self-center text-2xl font-semibold whitespace-nowrap text-black">Rad Plants</span>
+                        <span class="self-center text-2xl font-playfair-extra-bold whitespace-nowrap text-black">Rad Plants</span>
                     </a>
                 </div>
                 <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                      <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-400">Connect</h2>
+                        <h2 class="mb-6 text-lg font-playfair-bold text-slate-400">Connect</h2>
                         <ul class="text-gray-600  font-medium">
                             <li className="mb-4">
-                                <a href="#e" class="hover:underline ">Instagram</a>
+                                <a href="#" class="hover:underline font-playfair-bold text-xl">Instagram</a>
                             </li>
                             <li className='mb-4'>
-                                <a href="#" class="hover:underline">Facebook</a>
+                                <a href="#" class="hover:underline font-playfair-bold text-xl">Facebook</a>
                             </li>
                             <li className='mb-4'>
-                                <a href="#" class="hover:underline">Pinterest</a>
+                                <a href="#" class="hover:underline font-playfair-bold text-xl">Pinterest</a>
                             </li>
                             <li className='mb-4'>
-                                <a href="#" class="hover:underline">Youtube</a>
+                                <a href="#" class="hover:underline font-playfair-bold text-xl">Youtube</a>
                             </li>
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-400">Resources</h2>
+                        <h2 class="mb-6 text-lg font-playfair-bold text-slate-400">Resources</h2>
                         <ul class="text-gray-600  font-medium">
                             <li class="mb-4">
-                                <a href="#" class="hover:underline">Return Policy</a>
+                                <a href="#" class="hover:underline font-playfair-bold text-xl">Return Policy</a>
                             </li>
                             <li className='mb-4'>
-                                <a href="#" class="hover:underline">Track and Order</a>
+                                <a href="#" class="hover:underline font-playfair-bold text-xl">Track and Order</a>
                             </li>
                             <li className='mb-4'>
-                                <a href="#" class="hover:underline">FAQs</a>
+                                <a href="#" class="hover:underline font-playfair-bold text-xl">FAQs</a>
                             </li>
                             <li className='mb-4'>
                                 <a href="#" class="hover:underline">Privacy Policy</a>
@@ -60,16 +60,16 @@ const Footer = () => {
                     </div>
                     
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-400">About</h2>
+                        <h2 class="mb-6 text-lg font-playfair-bold text-slate-400">About</h2>
                         <ul class="text-gray-600  font-medium">
                             <li className="mb-4">
-                                <a href="#" class="hover:underline">Our Story</a>
+                                <a href="#" class="hover:underline font-playfair-bold text-xl">Our Story</a>
                             </li>
                             <li className='mb-4'>
-                                <a href="#" class="hover:underline">Careers</a>
+                                <a href="#" class="hover:underline font-playfair-bold text-xl">Careers</a>
                             </li>
                             <li className='mb-4'>
-                                <a href="#" class="hover:underline">Press</a>
+                                <a href="#" class="hover:underline font-playfair-bold text-xl">Press</a>
                             </li>
                         </ul>
                     </div>
