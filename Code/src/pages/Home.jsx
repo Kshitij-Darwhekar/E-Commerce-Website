@@ -1,6 +1,7 @@
 import React from 'react';
 import Interior1 from '../assets/Interior1.jpg';
 import Plant1 from '../assets/Plant1.jpg';
+import Poster from '../assets/Poster.jpg';
 import Plant2 from '../assets/Plant2.jpg';
 import Plant3 from '../assets/Plant3.jpg';
 import Plant4 from '../assets/Plant4.jpg';
@@ -24,8 +25,8 @@ const Home = () => {
         <h1 className='text-5xl font-playfair-extra-bold mt-10'>Find Perfect plants <br/> for your Home</h1>
         <p className='text-xl font-playfair'>Beautiful Plants that encourage you to get creative</p>
         <button className='bg-black font-playfair text-white rounded-sm p-2 px-12'>Shop Now</button>
-        <div>
-          <img src={Interior1} alt="Interior1" width={641} height={368} className='rounded-sm'/>
+        <div className='mt-20'>
+          <img src={Interior1} alt="Interior1" style={{width:'641px', height:'368px'}} className='rounded-sm'/>
         </div>
       </div>
 
