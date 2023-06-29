@@ -29,22 +29,22 @@ const Home = () => {
       </div>
 
       <div>
-        <h1 className='text-5xl font-playfair-extra-bold mt-10 text-center mb-10'>Categories</h1>
+        <h1 className='text-5xl font-playfair-extra-bold mt-32 text-center mb-16'>Categories</h1>
         <div className='flex flex-row flex-grow justify-evenly gap-4'>
           <div className='flex flex-col'>
-            <img src={Plant1} width={234} height={320} />
+            <img src={Plant1} style={{width:'234px', height: '320px'}} />
             <p className='text-lg font-playfair-semi-bold mt-4'>Jungle Plants</p>
           </div>
           <div className='flex flex-col '>
-            <img src={Plant3} width={234} height={320} />
+            <img src={Plant3} style={{width:'234px', height: '320px'}} />
             <p className='text-lg font-playfair-semi-bold mt-4'>Flowering Plants</p>
           </div>
           <div className='flex flex-col'>
-            <img src={IndoorPlants1} width={234} height={320} />
+            <img src={IndoorPlants1} style={{width:'234px', height: '320px'}} />
             <p className='text-lg font-playfair-semi-bold mt-4'>Indoor Plants</p>
           </div>
           <div className='flex flex-col' >
-            <img src={OutdoorPlants1} width={234} height={320} />
+            <img src={OutdoorPlants1} style={{width:'234px', height: '320px'}} />
             <p className='text-lg font-playfair-semi-bold mt-4'>Outdoor Plants</p>
           </div>
         </div>
@@ -62,26 +62,39 @@ const Home = () => {
         </div>
         <div className='flex flex-row justify-evenly gap-10'>
           <section className='flex flex-col'>
-            <img src={Product1} alt="Product1" width={224} height={280} className='rounded-sm'/>
+            <img src={Product1} alt="Product1" style={{width: '224px',height:'280px'}} className='rounded-sm'/>
             <p className='text-lg font-playfair-semi-bold mt-4 text-slate-500'>Monstera</p>
             <p className='text-lg font-playfair-semi-bold mt-4'>$ 20</p>
           </section>
           <section className='flex flex-col'>
-            <img src={Product2} alt="Product2" width={224} height={280} className='rounded-sm'/>
+            <img src={Product2} alt="Product2" style={{width: '224px',height:'280px'}} className='rounded-sm'/>
             <p className='text-lg font-playfair-semi-bold mt-4 text-slate-500'>Monstera</p>
             <p className='text-lg font-playfair-semi-bold mt-4'>$ 40</p>
           </section>
           <section className='flex flex-col w-96 h-96'>
-            <img src={Product3} alt="Product3" width={224} height={280} className='rounded-sm'/>
-            <p className='text-lg font-playfair-semi-bold mt-4 text-slate-500'>Plant 3</p>
+            <img src={Product3} alt="Product3" style={{width: '224px',height:'280px'}} className='rounded-sm'/>
+            <p className='text-lg font-playfair-semi-bold mt-4 text-slate-500'>Monstera</p>
             <p className='text-lg font-playfair-semi-bold mt-4'>$ 30</p>
           </section>
         </div>
       </div>
 
-      <div className='flex flex-row flex-grow gap-10 mt-10 text-justify justify-around'>
-        <img src={Blog1} alt="Blog 1" width={308} height={200} className='rounded-sm'/>
-        <img src={Blog2} alt="Blog 2" width={308} height={200} className='rounded-sm'/>
+      <div className='flex flex-row gap-10 mt-10 text-justify justify-evenly mb-10'>
+        <div className='relative'>
+        <img src={Blog1} alt="Blog 1" width={308} style={{height:'200px'}} className='rounded-sm' title='Blog 1'/>
+        <div className='absolute bottom-4 right-0 bg-white p-2 px-5 '>
+          <p className='text-slate-500 font-playfair'>Written By</p>
+          <p className='text-black font-playfair'>Billy Bowden</p>
+        </div>
+        </div>
+
+        <div className='relative'>
+        <img src={Blog2} alt="Blog 2" width={308} style={{height: '200px'}} className='rounded-sm' title='Blog 2'/>
+        <div className='absolute bottom-4 right-0 bg-white p-2 px-5 '>
+          <p className='text-slate-500 font-playfair'>Written By</p>
+          <p className='text-black font-playfair'>Julie Brown</p>
+        </div>
+        </div>
       </div>
     </>
   )
