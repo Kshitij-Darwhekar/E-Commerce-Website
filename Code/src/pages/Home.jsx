@@ -13,6 +13,7 @@ import Product3 from '../assets/Product3.jpg';
 import Product4 from '../assets/Product4.jpg';
 import Blog1 from '../assets/Blog1.jpg';
 import Blog2 from '../assets/Blog2.jpg';
+import Blog3 from '../assets/Blog3.jpg';
 
 // import OutdoorPlants2 from '../assets/OutdoorPlants2.jpg';
 
@@ -92,7 +93,15 @@ const Home = () => {
         <img src={Blog2} alt="Blog 2" width={308} style={{height: '200px'}} className='rounded-sm' title='Blog 2'/>
         <div className='absolute bottom-4 right-0 bg-white p-2 px-5 '>
           <p className='text-slate-500 font-playfair'>Written By</p>
-          <p className='text-black font-playfair'>Julie Brown</p>
+          <p className='text-black font-playfair'>Aleem Daar</p>
+        </div>
+        </div>
+
+        <div className='relative'>
+        <img src={Blog3} alt="Blog 2" width={308} style={{height: '200px'}} className='rounded-sm' title='Blog 2'/>
+        <div className='absolute bottom-4 right-0 bg-white p-2 px-5 '>
+          <p className='text-slate-500 font-playfair'>Written By</p>
+          <p className='text-black font-playfair'>Steve Bucknor</p>
         </div>
         </div>
       </div>
