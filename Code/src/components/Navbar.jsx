@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
         <div className='flex flex-row relative gap-4'>
             <div className='flex justify-start '>
-                <h1 className='text-2xl font-playfair-bold'>Rad Plants</h1>
+                <h1 className='text-2xl font-playfair-bold ml-2'>Rad Plants</h1>
             </div>
             <div className='flex flex-grow justify-center items-center text-center gap-4'>
                 <ul className='flex justify-center items-center text-center'>
