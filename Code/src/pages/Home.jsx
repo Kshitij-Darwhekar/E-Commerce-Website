@@ -83,27 +83,37 @@ const Home = () => {
 
       <div className='flex flex-row gap-10 mt-10 text-justify justify-evenly mb-10'>
         <div className='relative'>
-        <img src={Blog1} alt="Blog 1" width={308} style={{height:'200px'}} className='rounded-sm' title='Blog 1'/>
-        <div className='absolute bottom-4 right-0 bg-white p-2 px-5 '>
-          <p className='text-slate-500 font-playfair'>Written By</p>
-          <p className='text-black font-playfair'>Billy Bowden</p>
-        </div>
-        </div>
-
-        <div className='relative'>
-        <img src={Blog2} alt="Blog 2" width={308} style={{height: '200px'}} className='rounded-sm' title='Blog 2'/>
-        <div className='absolute bottom-4 right-0 bg-white p-2 px-5 '>
-          <p className='text-slate-500 font-playfair'>Written By</p>
-          <p className='text-black font-playfair'>Aleem Daar</p>
-        </div>
+          <div className='flex flex-col flex-grow text-center gap-2'>
+            <img src={Blog1} alt="Blog 1" width={308} style={{height:'200px'}} className='rounded-sm' title='Blog 1'/>
+            <p className='font-playfair-black'>How to repot a Monstera without <br /> killing it and foster its growth</p>
+          </div>
+          <div className='absolute bottom-20 right-0 bg-white p-2 px-5 '>
+            <p className='text-slate-500 font-playfair'>Written By</p>
+            <p className='text-black font-playfair'>Billy Bowden</p>
+          </div>
         </div>
 
         <div className='relative'>
-        <img src={Blog3} alt="Blog 2" width={308} style={{height: '200px'}} className='rounded-sm' title='Blog 2'/>
-        <div className='absolute bottom-4 right-0 bg-white p-2 px-5 '>
-          <p className='text-slate-500 font-playfair'>Written By</p>
-          <p className='text-black font-playfair'>Steve Bucknor</p>
+          <div className='flex flex-col flex-grow text-center gap-2'>
+          <img src={Blog2} alt="Blog 2" width={308} style={{height: '200px'}} className='rounded-sm' title='Blog 2'/>
+          <p className='font-playfair-black'>How to water your freaking plants <br/> so they don't die after one week</p>
+          </div>
+          <div className='absolute bottom-20 right-0 bg-white p-2 px-5 '>
+            <p className='text-slate-500 font-playfair'>Written By</p>
+            <p className='text-black font-playfair'>Aleem Daar</p>
+          </div>
         </div>
+
+        <div className='relative'>
+          <div className='flex flex-col flex-grow text-center gap-2'> 
+            <img src={Blog3} alt="Blog 3" width={308} style={{height: '200px'}} className='rounded-sm' title='Blog 3'/>
+            <p className='font-playfair-black'>Unleashing the Green Thumb: Mastering <br/> Monstera Repotting for Optimal Growth</p>
+          </div>
+          
+          <div className='absolute bottom-20 right-0 bg-white p-2 px-5 '>
+            <p className='text-slate-500 font-playfair'>Written By</p>
+            <p className='text-black font-playfair'>Steve Bucknor</p>
+          </div>
         </div>
       </div>
     </>

@@ -5,10 +5,10 @@ const Footer = () => {
     <>
       <footer class="bg-white mt-10 min-h-100vh">
         <div className='flex flex-col relative gap-4'>
-          <div className='flex justify-center items-center text-center flex-grow'>
-              <h5 className='font-playfair text-xl'>Get 15% off your next order, Subscribe to our Newsletter </h5>
+          <div className='flex justify-center items-center text-center flex-grow mt-16'>
+              <h5 className='font-playfair text-2xl mb-4'>Get 15% off your next order, <br /> Subscribe to our Newsletter </h5>
           </div>
-          <div className='flex justify-center items-center text-center flex-grow'>
+          <div className='flex justify-center items-center text-center flex-grow mb-16'>
             <form >
               <input type="text" placeholder="Enter your email address" className=' bg-gray t px-16 py-2 rounded-sm '/>
               <button type="submit" className='border-2 border-black py-2 px-5 bg-black text-white rounded-sm font-playfair-bold'>Subscribe</button>

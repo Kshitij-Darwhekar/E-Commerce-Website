@@ -7,9 +7,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
-import About from './pages/Catalogue'
+import ProductPage from './pages/ProductPage'
 import Catalogue from './pages/Catalogue'
 import Contact from './pages/Contact'
+import Cart from './helpers/Cart'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/catalogue" element={<Catalogue />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/products" element={<ProductPage />} />
         </Routes>
         <Footer />
       </Router>
