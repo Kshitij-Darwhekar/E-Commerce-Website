@@ -11,6 +11,7 @@ export default {
         'black': '#000000',
         'white': '#ffffff',
         'green': '#00ff00',
+  
       },
       fontFamily: {
         'ethos': ['Ethos-regular'],
@@ -29,5 +30,8 @@ export default {
     },
   }    
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin'),
+    
+  ],
 }
